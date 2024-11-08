@@ -1,8 +1,8 @@
-package com.atividade;//importação de pacote
+package com.atividade;//pacote
 
 public class Borboleta extends Inseto {//criação da classe Borboleta que está herdando da classe Inseto
     public Borboleta() {//construtor
-        super("Borboleta");//chama o construtor da classe pai(Inseto), passando "Borboleta" como argumento. Isso inicializa o nome do inseto como "Borboleta" na classe base.
+        super("Borboleta");//chama o construtor da classe Inseto, passando "Borboleta" como argumento. Isso inicializa o nome do inseto como "Borboleta" na classe base.
     }
 
     @Override//sobrescreve o método respirar
