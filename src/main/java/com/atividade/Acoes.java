@@ -1,7 +1,8 @@
 
-package com.atividade;
+package com.atividade;//importação do pacote
 
 public interface Acoes {
     void mover();
     void emitirSom();
 }
+//aqui é a interface acoes, ela ira servi para declaras os métodos mover e emitirSom que serão implementados pelas classes animais
