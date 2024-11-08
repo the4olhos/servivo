@@ -1,5 +1,5 @@
 
-package com.atividade;//importação do pacote
+package com.atividade;//pacote
 
 public interface Acoes {
     void mover();
